@@ -82,6 +82,5 @@ We currently lack research into faithfulness in more complex settings. As we’v
 In the meantime, CoTs should be viewed as a useful indicator of a model’s thinking. We should avoid thinking of it as a gold standard representation. AI developers and policy experts should use it along with other methods, such as close monitoring of model behavior over time, red teaming, and thorough independent evaluations. CoTs will be a crucial part of any AI safety solution, but not a standalone silver bullet.
 
 --- 
-
-
+<br>
 That brings us to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot of stuff that is worth your time. 
