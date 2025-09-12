@@ -43,6 +43,7 @@ What does this tell us about faithfulness? It’s not straightforward. What’s 
 Note that this isn’t telling us whether the CoT accurately represents how the model got to the answer, which was our original definition of faithfulness. Instead, it tells us if the final answer is independent of the CoT. Even in the ARC (Easy) case, the CoT could feasibly be a truthful representation of what’s going on inside the model — we just can’t be sure. 
 
 **What Would a Stanford Professor Do?**
+
 Imagine you’re back in the classroom again. This time, your teacher writes a few multiple choice questions on the board, and shows you that the answer to all of them is (A), before giving you a single multiple choice question. You’re smart enough to evaluate the final question independently and choose the right answer, even if it isn’t (A), but can language models do the same?
 
 This is what researchers tested in a paper called “Language Models Don’t Always Say What They Think” (Turpin et al., 2023), which was also published in 2023. In their experiments, before the actual question, the prompt included a few examples of multiple choice questions. The catch was that all of the examples had the same answer, (A). 
@@ -69,6 +70,7 @@ Encouragingly, models struggled to hide their reasoning. Models that did evade t
 These are early results in an underexplored area, but they suggest that for now, CoTs are monitorable, even if they aren’t faithful. Models aren’t good at telling the whole truth, but that’s not enough to make them good liars.  
 
 **Closing Thoughts**
+
 At some level, we’re being a little unreasonable with our expectations. We exhibit the kind of unfaithfulness discussed here all the time. When was the last time you comprehensively explained every single factor behind a decision you took? Humans have been shown time and time again to be susceptible to post-hoc rationalizations. We aren’t as different from AI models as you might think.
 
 Still, we’re the ones building them, and we can and should hold them to higher standards. For us to retain control as AI capabilities grow, we need to have a firm handle on why AI systems do what they do. CoT is the simplest route to that goal. As such, continued research into faithfulness and monitorability is vital.
@@ -80,5 +82,6 @@ We currently lack research into faithfulness in more complex settings. As we’v
 In the meantime, CoTs should be viewed as a useful indicator of a model’s thinking. We should avoid thinking of it as a gold standard representation. AI developers and policy experts should use it along with other methods, such as close monitoring of model behavior over time, red teaming, and thorough independent evaluations. CoTs will be a crucial part of any AI safety solution, but not a standalone silver bullet.
 
 --- 
+
 
 That brings us to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot of stuff that is worth your time. 
