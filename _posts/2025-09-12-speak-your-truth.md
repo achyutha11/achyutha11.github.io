@@ -86,3 +86,10 @@ In the meantime, CoTs should be viewed as a useful indicator of a model’s thin
 --- 
 <br>
 That brings us to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot of stuff that is worth your time. 
+
+**References**
+- Wei et al., 2022. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. https://arxiv.org/abs/2201.11903 
+- Lanham et al., 2023. Measuring Faithfulness in Chain-of-Thought Reasoning. https://arxiv.org/abs/2307.13702 
+- Turpin et al., 2023. Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. https://arxiv.org/abs/2305.04388 
+- Chen et al., 2025. Reasoning Models Don't Always Say What They Think. https://arxiv.org/abs/2505.05410 
+- Emmons et al., 2025. When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors. https://arxiv.org/abs/2507.05246 
