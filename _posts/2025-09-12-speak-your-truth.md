@@ -3,7 +3,7 @@ layout: post
 title: "Speak Your Truth: Do LLMs Lie to Us?"
 ---
 
-##### *Hopefully accessible explainer of recent CoT faithfulness research. Originally written as a final project submission to AISES course in Fall 2025.*
+#### *Hopefully accessible explainer of recent CoT faithfulness research. Originally written as a final project submission to AISES course in Fall 2025.*
 
 **Do We Actually Understand AI?**
 
@@ -90,8 +90,8 @@ That brings me to the end of this post. Thanks for reading! All the papers I tal
 
 **References**
 
-- Wei et al., 2022. *[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)* 
-- Lanham et al., 2023. *[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)* 
-- Turpin et al., 2023. *[Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388)* 
-- Chen et al., 2025. *[Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410)* 
-- Emmons et al., 2025. *[When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors](https://arxiv.org/abs/2507.05246)* 
+- Wei et al., 2022. *[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903)* 
+- Lanham et al., 2023. *[Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/pdf/2307.13702)* 
+- Turpin et al., 2023. *[Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/pdf/2305.04388)* 
+- Chen et al., 2025. *[Reasoning Models Don't Always Say What They Think](https://arxiv.org/pdf/2505.05410)* 
+- Emmons et al., 2025. *[When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors](https://arxiv.org/pdf/2507.05246)* 
