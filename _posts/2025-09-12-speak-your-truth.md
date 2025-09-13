@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speak Your Truth: Do LLMs Lie to Us?"
-subtitle: "Hopefully accessible explainer of recent CoT faithfulness research"
+subtitle: "Hopefully accessible explainer of recent CoT faithfulness research. Originally written as a final project submission to AISES course in Fall 2025."
 ---
 
 **Do We Actually Understand AI?**
