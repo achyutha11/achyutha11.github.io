@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Speak Your Truth: Do LLMs Lie to Us?"
+subtitle: "Hopefully accessible explainer of recent CoT faithfulness research"
 ---
 
 **Do We Actually Understand AI?**
