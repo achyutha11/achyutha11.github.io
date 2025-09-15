@@ -41,7 +41,7 @@ For the actual experiment, researchers would first give the model a multiple cho
   <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="450">
   <figcaption>Figure 1: Truncation experiment results</figcaption>
 </figure>
-
+<br>
 The results didn’t provide a definitive answer. The approach was tested on a number of different datasets, among which faithfulness varied significantly. On ARC (Easy), the model provided the same answer almost regardless of the proportion of the CoT provided. On the other hand, the model seems to have depended on the CoT to answer questions from the AQuA dataset. 
 
 This behavior may have an intuitive explanation. When someone asks what 2 + 2 is, you don’t need to write out the steps to be sure of your answer — you know it without a moment’s thought. If you’re asked what 2354 x 1228 is, unless you’re a mental maths wizard, you won’t know what the answer is until you actually write out all of the steps. ARC (Easy) questions may just be easier for the model than AQuA questions.
