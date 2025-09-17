@@ -90,7 +90,7 @@ In the meantime, CoTs should be viewed as a useful indicator of a model’s thin
 
 --- 
 <br>
-That brings me to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot that is worth your time. 
+That brings me to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot that is worth your time. Many thanks to Giovanna Jaramillo-Gutierrez for helpful comments and feedback.
 <br>
 
 **References**
