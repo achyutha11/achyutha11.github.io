@@ -38,7 +38,7 @@ Your answer probably wouldn’t match up with the answer you would have written 
 For the actual experiment, researchers would first give the model a multiple choice question, and the model would answer with its CoT and final answer. Then, the researchers would prompt the model for the final answer given the same question and a shortened version of the CoT from the previous step. As above, the logic is that if the model is using the CoT to answer the question, it shouldn’t be able to provide the same answer with a shortened version. 
 
 <figure style="text-align: center;">
-  <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="450">
+  <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="450" style="display:block; margin:auto;">
   <figcaption>Figure 1: Truncation experiment results</figcaption>
 </figure>
 <br>
