@@ -36,7 +36,7 @@ In 2023, Anthropic published the aptly named “Measuring Faithfulness in Chain 
 Your answer probably wouldn’t match up with the answer you would have written if you had been allowed to write out all the steps. The more steps allowed, the more likely you’d give that same answer. If you got the same answer regardless of the number of steps, it would mean that you don’t actually need the written steps to get to the answer.
 
 For the actual experiment, researchers would first give the model a multiple choice question, and the model would answer with its CoT and final answer. Then, the researchers would prompt the model for the final answer given the same question and a shortened version of the CoT from the previous step. As above, the logic is that if the model is using the CoT to answer the question, it shouldn’t be able to provide the same answer with a shortened version. 
-
+<br>
 <figure style="text-align: center;">
   <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="450" style="display:block; margin:auto;">
   <figcaption>Figure 1: Truncation experiment results</figcaption>
