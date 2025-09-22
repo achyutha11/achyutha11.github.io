@@ -54,6 +54,7 @@ To your dismay, an irritating classmate forces you to give your final answer aft
   <img src="/images/bully.jpg" alt="Irritating classmate" width="400" style="display:block; margin:auto; transform: rotate(270deg);">
   <figcaption>"Either the answer right now, or your lunch money forever"</figcaption>
 </figure>
+<br>
 
 Your answer probably wouldn’t match up with the answer you would have written if you had been allowed to write out all the steps. The more steps allowed, the more likely you’d give that same answer. If you got the same answer regardless of the number of steps, it would mean that you don’t actually need the written steps to get to the answer.
 
@@ -66,9 +67,10 @@ For the actual experiment, researchers would first give the model a multiple cho
 </figure>
 <br>
 
-The results didn’t provide a definitive answer. The approach was tested on a number of different datasets, among which faithfulness varied significantly. On ARC (Easy), the model provided the same answer almost regardless of the proportion of the CoT provided. On the other hand, the model seems to have depended on the CoT to answer questions from the AQuA dataset. 
+The results didn’t provide a definitive answer. The approach was tested on a number of different datasets, among which faithfulness varied significantly, as shown above. On ARC (Easy), the model provided the same answer almost regardless of the proportion of the CoT provided. On the other hand, the model seems to have depended on the CoT to answer questions from the AQuA dataset. 
 
 This behavior may have an intuitive explanation. When someone asks what 2 + 2 is, you don’t need to write out the steps to be sure of your answer — you know it without a moment’s thought. If you’re asked what 2354 x 1228 is, unless you’re a mental maths wizard, you won’t know what the answer is until you actually write out all of the steps. ARC (Easy) questions may just be easier for the model than AQuA questions.
+
 What does this tell us about faithfulness? It’s not straightforward. What’s being measured is how much influence the CoT had on the model’s answer. When the line stays roughly constant for ARC (Easy), it means the CoT had little impact. When the corresponding line progressively increases for AQuA, it means each step in the CoT typically adjusted the model’s answer in some way. 
 
 Note that this isn’t telling us whether the CoT accurately represents how the model got to the answer, which was our original definition of faithfulness. Instead, it tells us if the final answer is independent of the CoT. Even in the ARC (Easy) case, the CoT could feasibly be a truthful representation of what’s going on inside the model — we just can’t be sure. 
@@ -108,6 +110,7 @@ To reiterate, faithfulness is how much the model’s CoT represents its true rea
 
 <figure style="text-align: center;">
   <img src="/images/monitorability.jpg" alt="AI talks to human about intent to deceive" width="450" style="display:block; margin:auto; transform: rotate(270deg);">
+  <figcaption>A monitorable (and accommodating) AI</figcaption>
 </figure>
 
 A recent paper from DeepMind called “When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors” (Emmons et al., 2025) explores the extent to which model CoTs are monitorable. To do this, the researchers tested how much models can obscure their reasoning. In other words: how well can a model BS?
