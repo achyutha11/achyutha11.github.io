@@ -146,7 +146,6 @@ In the meantime, CoTs should be viewed as a useful indicator of a model’s thin
 That brings me to the end of this post. Thanks for reading! All the papers I talked about are linked below, and I highly recommend reading them if you’re interested in learning more — I skipped over a lot that is worth your time. Many thanks to Giovanna Jaramillo-Gutierrez for helpful comments and feedback.
 <br>
 
-**Footnote**
 [^1]: I'm using "thinking" very loosely throughout the post just to refer to the process by which a model makes decisions. I'm not suggesting that models really think the same way humans do.
 
 **References**
