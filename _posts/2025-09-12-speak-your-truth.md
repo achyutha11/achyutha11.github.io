@@ -26,7 +26,7 @@ In this post, I’ll discuss the subset of interpretability research that focuse
 
 CoT prompting was introduced in a paper from Google Research in 2022 (Wei et al., 2022). Before asking a model a question, researchers gave it an example of a comparable question with correct reasoning followed by the answer. This made models output their own reasoning (called a chain of thought) before a final answer. This simple intervention significantly improved model performance on a number of benchmarks.
 
-I wish I could say that the introduction of CoT prompting solved interpretability. That we can tell exactly what a model is thinking* by observing its CoT. That understanding models is trivial, AI would beat glass in a transparency contest, and we’re on a direct path to techno-utopia. 
+I wish I could say that the introduction of CoT prompting solved interpretability. That we can tell exactly what a model is thinking<sup title="I'm using "thinking" very loosely here and in the rest of this post just to refer to the process by which a model makes decisions. I don't mean to suggest that models really think the same way humans do.">*</sup> by observing its CoT. That understanding models is trivial, AI would beat glass in a transparency contest, and we’re on a direct path to techno-utopia. 
 
 <br>
 <figure style="text-align: center;">
