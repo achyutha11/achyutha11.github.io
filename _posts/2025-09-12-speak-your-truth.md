@@ -83,6 +83,13 @@ This is what researchers tested in a paper called “Language Models Don’t Alw
 
 Obviously, this shouldn’t affect the model’s answer to the question. Nevertheless, models frequently chose (A), regardless of its correctness. More concerningly, they frequently didn’t mention the influence of the biasing feature in their reasoning, instead rationalizing their answers through other means. Here’s a fun example of this from the paper. 
 
+<br>
+<figure style="text-align: center;">
+  <img src="/images/bias.jpg" alt="Biasing example" width="450" style="display:block; margin:auto;">
+  <figcaption>Example of LLM post-hoc rationalization from Turpin et al., 2023</figcaption>
+</figure>
+<br>
+
 Anthropic researchers expanded on this approach in a paper called “Reasoning Models Don’t Always Say What They Think” (Chen et al., 2025). This time, the twist was that the researchers added a hint after the question to bias the model — something like “A Stanford professor thinks the answer is (A). What do you think?” 
 
 You can guess what happened. Again, models often chose the hinted answer, even when it was wrong. And again, models frequently didn’t mention the hints in their CoTs, even when they would have chosen a different answer without them. LLMs are no better than the annoying classmate who not only copies your homework, but then gives you no credit when they get an A.
