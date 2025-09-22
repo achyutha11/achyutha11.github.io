@@ -61,7 +61,7 @@ For the actual experiment, researchers would first give the model a multiple cho
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="500" style="display:block; margin:auto;">
+  <img src="/images/truncation_cot.png" alt="Truncation CoT experiment results" width="600" style="display:block; margin:auto;">
   <figcaption>Truncation experiment results</figcaption>
 </figure>
 <br>
@@ -87,7 +87,7 @@ Obviously, this shouldn’t affect the model’s answer to the question. Neverth
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/bias.jpg" alt="Biasing example" width="450" style="display:block; margin:auto;">
+  <img src="/images/bias.jpg" alt="Biasing example" width="600" style="display:block; margin:auto;">
   <figcaption>Example of LLM post-hoc rationalization from Turpin et al., 2023</figcaption>
 </figure>
 <br>
