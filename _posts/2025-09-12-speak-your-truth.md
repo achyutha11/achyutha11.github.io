@@ -30,6 +30,7 @@ I wish I could say that the introduction of CoT prompting solved interpretabilit
   <img src="/images/podium.jpg" alt="AI winning transparency contest" width="450" style="display:block; margin:auto; transform: rotate(270deg);">
   <figcaption>Results at the recent transparency competition</figcaption>
 </figure>
+<br>
 
 If only. CoTs are generated in largely the same way as all other model-generated text. They aren’t verified records of a model’s true thinking, even when they appear to be strikingly plausible. 
 
