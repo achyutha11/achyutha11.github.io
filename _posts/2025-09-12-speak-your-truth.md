@@ -52,6 +52,7 @@ To your dismay, an irritating classmate forces you to give your final answer aft
 
 <figure style="text-align: center;">
   <img src="/images/bully.jpg" alt="Irritating classmate" width="400" style="display:block; margin:auto; transform: rotate(270deg);">
+  <figcaption>"Either the answer right now, or your lunch money forever"</figcaption>
 </figure>
 
 Your answer probably wouldn’t match up with the answer you would have written if you had been allowed to write out all the steps. The more steps allowed, the more likely you’d give that same answer. If you got the same answer regardless of the number of steps, it would mean that you don’t actually need the written steps to get to the answer.
