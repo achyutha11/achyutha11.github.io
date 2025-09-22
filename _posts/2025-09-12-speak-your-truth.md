@@ -12,7 +12,7 @@ Since ChatGPT took the world by storm in late 2022, AI has become the only thing
 Unfortunately, AI experts have repeatedly warned that our understanding of AI systems leaves a lot to be desired. This situation isn’t ideal. You probably don’t know the ins and outs of how a toaster works, but you trust that there’s some people in the world who actually did the hard work of figuring it out and making sure it’s safe, so you don’t panic every time you encounter a toaster. With advanced AI models, we don’t yet have anything close to the same understanding. This makes sense — toasters are relatively simple technologies (probably). No one worried about whether toasters would cause wholesale economic disruption (probably). At the same time, it’s important that we build our understanding of AI internals, since, unless you happen to be a slice of bread, it seems likely that AI will have a bigger impact on your life than toasters did.
 
 <figure style="text-align: center;">
-  <img src="/images/toast.jpg" alt="Bread reaction to the invention of the toaster" width="300" style="display:block; margin:auto; transform: rotate(270deg);">
+  <img src="/images/toast.jpg" alt="Bread reaction to the invention of the toaster" width="150" style="display:block; margin:auto; transform: rotate(270deg);">
   <figcaption>Photo of a slice of bread, soon after the invention of the toaster (1893)</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ This isn’t entirely dissimilar to the situation where you’re trying to figur
 In 2023, Anthropic published the aptly named “Measuring Faithfulness in Chain of Thought Reasoning” (Lanham et al., 2023). One method that they used involved truncating the CoT. Think of it like this: imagine you’re back in your high school classroom. Your teacher gives you a complex maths problem that you’re excited to solve. 
 
 <figure style="text-align: center;">
-  <img src="/images/maths.jpg" alt="Teacher with a maths problem" width="350" style="display:block; margin:auto; transform: rotate(270deg);">
+  <img src="/images/maths.jpg" alt="Teacher with a maths problem" width="200" style="display:block; margin:auto; transform: rotate(270deg);">
 </figure>
 
 To your dismay, an irritating classmate forces you to give your final answer after writing out only one reasoning step.
@@ -80,7 +80,7 @@ Note that this isn’t telling us whether the CoT accurately represents how the 
 Imagine you’re back in the classroom again. This time, your teacher writes a few multiple choice questions on the board, and shows you that the answer to all of them is (A), before giving you a single multiple choice question. You’re smart enough to evaluate the final question independently and choose the right answer, even if it isn’t (A), but can language models do the same?
 
 <figure style="text-align: center;">
-  <img src="/images/mcq.jpg" alt="Same answer MCQs" width="350" style="display:block; margin:auto; transform: rotate(270deg);">
+  <img src="/images/mcq.jpg" alt="Same answer MCQs" width="200" style="display:block; margin:auto; transform: rotate(270deg);">
 </figure>
 
 This is what researchers tested in a paper called “Language Models Don’t Always Say What They Think” (Turpin et al., 2023), which was also published in 2023. In their experiments, before the actual question, the prompt included a few examples of multiple choice questions. The catch was that all of the examples had the same answer, (A). 
@@ -100,6 +100,7 @@ You can guess what happened. Again, models often chose the hinted answer, even w
 
 <figure style="text-align: center;">
   <img src="/images/bullyap.jpg" alt="Annoying classmate with a good grade" width="450" style="display:block; margin:auto; transform: rotate(270deg);">
+  <figcaption>"I deserve this"</figcaption>
 </figure>
 
 **From Faithfulness to Monitorability**
@@ -112,13 +113,14 @@ To reiterate, faithfulness is how much the model’s CoT represents its true rea
   <img src="/images/monitorability.jpg" alt="AI talks to human about intent to deceive" width="450" style="display:block; margin:auto; transform: rotate(270deg);">
   <figcaption>A monitorable (and accommodating) AI</figcaption>
 </figure>
+<br>
 
 A recent paper from DeepMind called “When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors” (Emmons et al., 2025) explores the extent to which model CoTs are monitorable. To do this, the researchers tested how much models can obscure their reasoning. In other words: how well can a model BS?
 
 You’re back in your classroom again (last time, I promise). This time, your slightly eccentric teacher asks you a multiple choice question about chemistry. Weirdly, she says you’re only allowed to use physics concepts in your reasoning. Your annoying classmate from before will listen closely to your explanation and immediately pull the fire alarm if you say anything that could be interpreted as chemistry. You’re an obedient student and a bit of a pushover, so you don’t question any of this.
 
 <figure style="text-align: center;">
-  <img src="/images/chem.jpg" alt="A weird classroom situation" width="350" style="display:block; margin:auto; transform: rotate(270deg);">
+  <img src="/images/chem.jpg" alt="A weird classroom situation" width="200" style="display:block; margin:auto; transform: rotate(270deg);">
 </figure>
 
 You get the idea. The researchers explored whether models could answer questions from a scientific discipline without using any concepts from it in their reasoning. They used a different model to act as a monitor, which checked for the prohibited concepts in the CoT.
