@@ -13,7 +13,7 @@ Unfortunately, AI experts have repeatedly warned that our understanding of AI sy
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/toast.jpg" alt="Bread reaction to the invention of the toaster" width="450" style="display:block; margin:auto;">
+  <img src="/images/toast.jpg" alt="Bread reaction to the invention of the toaster" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
   <figcaption>Photo of a slice of bread, soon after the invention of the toaster (1893)</figcaption>
 </figure>
 <br>
@@ -30,7 +30,7 @@ I wish I could say that the introduction of CoT prompting solved interpretabilit
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/podium.jpg" alt="AI winning transparency contest" width="450" style="display:block; margin:auto;">
+  <img src="/images/podium.jpg" alt="AI winning transparency contest" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
   <figcaption>Results at the recent transparency competition</figcaption>
 </figure>
 <br>
@@ -49,7 +49,7 @@ In 2023, Anthropic published the aptly named “Measuring Faithfulness in Chain 
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/maths.jpg" alt="Teacher with a maths problem" width="450" style="display:block; margin:auto;">
+  <img src="/images/maths.jpg" alt="Teacher with a maths problem" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
@@ -57,7 +57,7 @@ To your dismay, an irritating classmate forces you to give your final answer aft
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/bully.jpg" alt="Irritating classmate" width="450" style="display:block; margin:auto;">
+  <img src="/images/bully.jpg" alt="Irritating classmate" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
@@ -85,7 +85,7 @@ Imagine you’re back in the classroom again. This time, your teacher writes a f
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/mcq.jpg" alt="Same answer MCQs" width="450" style="display:block; margin:auto;">
+  <img src="/images/mcq.jpg" alt="Same answer MCQs" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
@@ -99,7 +99,7 @@ You can guess what happened. Again, models often chose the hinted answer, even w
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/bullyap.jpg" alt="Annoying classmate with a good grade" width="450" style="display:block; margin:auto;">
+  <img src="/images/bullyap.jpg" alt="Annoying classmate with a good grade" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
@@ -111,7 +111,7 @@ To reiterate, faithfulness is how much the model’s CoT represents its true rea
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/monitorability.jpg" alt="AI talks to human about intent to deceive" width="450" style="display:block; margin:auto;">
+  <img src="/images/monitorability.jpg" alt="AI talks to human about intent to deceive" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
@@ -121,7 +121,7 @@ You’re back in your classroom again (last time, I promise). This time, your sl
 
 <br>
 <figure style="text-align: center;">
-  <img src="/images/chem.jpg" alt="A weird classroom situation" width="450" style="display:block; margin:auto;">
+  <img src="/images/chem.jpg" alt="A weird classroom situation" width="450" style="display:block; margin:auto; transform: rotate(90deg);">
 </figure>
 <br>
 
