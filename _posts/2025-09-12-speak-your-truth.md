@@ -3,7 +3,7 @@ layout: post
 title: "Speak Your Truth: Do LLMs Lie to Us?"
 ---
 
-#### *Hopefully accessible explainer of recent CoT faithfulness research. Originally written as a final project submission to AISES course in Fall 2025. Heavily inspired by Wait But Why, as well as the Siliconversations and Robert Miles AI Safety YouTube channels.*
+#### *Hopefully accessible explainer of recent CoT faithfulness research. Heavily inspired by Wait But Why, as well as the Siliconversations and Robert Miles AI Safety YouTube channels.*
 
 **Do We Actually Understand AI?**
 
