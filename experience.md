@@ -3,16 +3,16 @@ layout: page
 title: Experience
 ---
 
-### Research Experience
+## Research Experience
 
-### Independent Researcher
+#### Independent Researcher
 **AI Safety Research Collaboration**
 *Remote | December 2025 - Present*
 
 * Engineered an evaluation harness using OpenAI and Anthropic APIs to simulate reinforcement learning training.
 * Evaluated frontier models (GPT 5.2, Claude Opus 4.5, etc.) on their propensity to resist RL training under misaligned goals, identifying a novel failure mode in AI models.
 
-### Research Fellow
+#### Research Fellow
 **Supervised Program for Alignment Research (SPAR)**
 *Remote | September 2025 - Present*
 
@@ -20,8 +20,8 @@ title: Experience
 * Designed experiments to study how conditioning stronger models on weaker models’ context affects goal drift.
 * Led the writing and submission of the first-author paper to ICLR Workshop 2026.
 
-### Research Assistant
-**WENG LAB**
+#### Research Assistant
+**Trustworthy ML Lab**
 *La Jolla, California | June 2025 - August 2025*
 
 * Investigated chain-of-thought (CoT) reasoning and faithfulness in large language models.
@@ -29,8 +29,8 @@ title: Experience
 
 ## Industry Experience
 
-### Associate Data Scientist, Refinance Team
-**JERRY SERVICES INC.**
+#### Associate Data Scientist, Refinance Team
+**Jerry Services Inc.**
 *Chicago, Illinois | December 2023 - July 2024*
 
 * Led the analysis of A/B tests and development of ML models for the refinancing product which reduced credit pull costs by 70% with no negative impact on loan volume.

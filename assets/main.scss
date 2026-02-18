@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Define brand color
+$brand-color: #2a7ae2 !default;
+
+@import "minima";
+
+/**
+ * Custom Styles
+ */
+
+// Override link color
+a {
+  color: $brand-color;
+  &:visited {
+    color: darken($brand-color, 10%);
+  }
+  &:hover {
+    color: lighten($brand-color, 10%);
+  }
+}
+
+// Add color to headers
+h1, h2, h3, h4, h5, h6 {
+  color: $brand-color;
+}
+
+// Site title color
+.site-title {
+    color: $brand-color !important;
+}
+
+// Navigation link color
+.site-nav .page-link {
+    color: $text-color;
+}
+
+// Blockquote styling
+blockquote {
+    border-left: 4px solid $brand-color;
+    background-color: lighten($brand-color, 48%);
+    padding: 10px;
+}
