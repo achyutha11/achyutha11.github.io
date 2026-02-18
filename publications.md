@@ -9,7 +9,7 @@ title: Publications & Preprints
 
 * **Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals.**
   **A. Menon**, M. Saebo, S. Gibson, T. Crosse, E. Jang, D. Cruz.
-  *Submitted to ICLR 2026 Workshop (AIWILD).*
+  *Submitted to ICLR 2026 Workshop (AIWILD, Lifelong Agents).*
 
 * **Asymmetric Goal Drift in Coding Agents Under Value Conflict.**
   M. Saebo, S. Gibson, T. Crosse, **A. Menon**, E. Jang, D. Cruz.
